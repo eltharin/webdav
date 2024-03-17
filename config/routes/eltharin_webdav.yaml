@@ -1,0 +1,3 @@
+eltharin_invitations:
+    resource: @EltharinInvitations/src/Controller/
+    type: annotation

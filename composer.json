@@ -1,0 +1,14 @@
+{
+    "name": "eltharin/invitations",
+    "autoload": {
+        "psr-4": {
+            "Eltharin\\InvitationsBundle\\": "src/"
+        }
+    },    
+	"description": "invitations Bundle for symfony",
+    "keywords": ["Symfony", "JS","CSS", "Web", "Bundle"],
+    "license": "GPL-3.0",
+	"type": "symfony-bundle",
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
