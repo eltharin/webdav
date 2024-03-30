@@ -1,12 +1,13 @@
 {
-    "name": "eltharin/invitations",
+    "name": "eltharin/webdav",
     "autoload": {
         "psr-4": {
-            "Eltharin\\InvitationsBundle\\": "src/"
+            "Eltharin\\WebdavBundle\\": "src/",
+            "Eltharin\\WebdavBundle\\Tests\\": "tests/"
         }
     },    
-	"description": "invitations Bundle for symfony",
-    "keywords": ["Symfony", "JS","CSS", "Web", "Bundle"],
+	"description": "WebDav Bundle for symfony",
+    "keywords": ["Symfony", "WebDav", "Web", "Bundle"],
     "license": "GPL-3.0",
 	"type": "symfony-bundle",
     "minimum-stability": "dev",

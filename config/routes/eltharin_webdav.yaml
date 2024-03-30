@@ -1,3 +1,3 @@
-eltharin_invitations:
-    resource: @EltharinInvitations/src/Controller/
-    type: annotation
+eltharin_webdav:
+    resource: Eltharin\WebdavBundle\Routing\Loader
+    type: service
