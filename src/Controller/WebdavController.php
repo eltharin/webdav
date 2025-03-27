@@ -29,7 +29,7 @@ class WebdavController
 
 		$checkFileType = $this->fileManager->checkFileType($path);
 
-		$this->fileManager->checkAutorization($path, $this->security);
+		$this->fileManager->checkAuthorization($path, $this->security);
 
 		if ($checkFileType == null)
 		{

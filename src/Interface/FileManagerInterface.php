@@ -26,7 +26,7 @@ interface FileManagerInterface
 
 	public function checkFileType($path): ?string;
 
-	public function checkAutorization(string $path, AuthorizationCheckerInterface $security): void;
+	public function checkAuthorization(string $path, AuthorizationCheckerInterface $security): void;
 
 	public function createDirectory($path): bool;
 

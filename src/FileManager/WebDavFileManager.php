@@ -106,7 +106,7 @@ class WebDavFileManager implements FileManagerInterface
 		return FileManagerInterface::TYPE_FOLDER;
 	}
 
-	public function checkAutorization(string $path, AuthorizationCheckerInterface $security): void
+	public function checkAuthorization(string $path, AuthorizationCheckerInterface $security): void
 	{
 	}
 
